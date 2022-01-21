@@ -1,11 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&family=Sarabun:wght@300&family=Secular+One&display=swap");
+
 :root {
   --primary-color: #0f0c29;
+  --paragraph-font: "Sarabun", sans-serif;
+  --heading-font: "Patua One", cursive;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Navbar Start */
 .main-menu {
   background-color: transparent !important;
   color: var(--primary-color) !important;
@@ -23,3 +29,126 @@
 .navbar-toggler-icon {
   color: var(--primary-color) !important;
 }
+/* Navbar End */
+
+/* Home Page Start */
+.home__page {
+  width: 100%;
+  height: 80vh;
+  margin-top: 100px;
+  margin-bottom: 50px !important;
+}
+.row {
+  display: flex;
+}
+.col-6 {
+  width: 50%;
+}
+.home__heading {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+.brand-name {
+  color: #2980b9 !important;
+}
+.home__p {
+  font-family: var(--paragraph-font);
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.home__button {
+  display: flex;
+}
+.btn {
+  background-color: #003566 !important;
+  color: #f8f9fa !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  padding: 8px 30px !important;
+  border-radius: 50px !important;
+  transition: 0.5s !important;
+}
+.youtube {
+  background-color: red !important;
+  margin-left: 30px;
+  font-size: 16px !important;
+}
+.youtube:hover {
+  color: red !important;
+  background-color: white !important;
+  border: 1px solid red !important;
+}
+.get-started:hover {
+  color: #003566 !important;
+  background-color: #f8f9fa !important;
+  border: 1px solid #003566 !important;
+}
+.content {
+  margin-top: 80px !important;
+}
+/* Home Page End */
+
+/* About Page Start */
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.about_heading h1 {
+  font-weight: 700;
+  font-size: 50px !important;
+  font-family: "Secular One", sans-serif;
+  margin-bottom: 35px;
+}
+h1 .my_name {
+  color: #ff0a54;
+}
+.about_page {
+  width: 100%;
+  height: 80vh !important;
+  margin-bottom: 50px !important;
+}
+.react-tabs a {
+  font-size: 20px;
+  padding: 0 20px !important;
+  margin: 0 20px !important;
+  font-weight: 700;
+  color: #0f0c29;
+}
+.active_tabs {
+  color: #ff0a54 !important;
+}
+.active::after {
+  background-color: #ff0a54 !important;
+}
+.react-tabs a::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 2px;
+  background-color: #ced4da;
+  transition: width 0.5s;
+}
+.react-tabs a:hover::after {
+  background-color: #ff0a54;
+  width: 100%;
+  transition: width 0.5s;
+  color: #ff0a54;
+}
+.react-tabs li a:first-child {
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+}
+.react-tabs ul {
+  margin-right: 25px !important;
+}
+.nav {
+  margin-bottom: 15px !important;
+}
+.showcase {
+  margin: 30px 0;
+}
+/* About Page End */
