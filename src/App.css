@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #0f0c29;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-menu {
+  background-color: transparent !important;
+  color: var(--primary-color) !important;
+}
+.main-menu li a {
+  color: var(--primary-color) !important;
+  font-size: 18px;
+  font-weight: 700;
+}
+.navbar-brand {
+  color: var(--primary-color);
+  font-size: 25px !important;
+  font-weight: 700;
+}
+.navbar-toggler-icon {
+  color: var(--primary-color) !important;
+}
