@@ -3,6 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <>
+      <div id="about"></div>
       <div className="container">
         <div className="about_page">
           <h1 className="about">ABOUT</h1>
@@ -30,7 +31,8 @@ export default function About() {
                       data-bs-target="#skills"
                       role="tab"
                       aria-controls="skills"
-                      aria-selected="false">
+                      aria-selected="false"
+                    >
                       Main skills
                     </a>
                   </li>
@@ -43,7 +45,8 @@ export default function About() {
                       data-bs-target="#awards"
                       role="tab"
                       aria-controls="awards"
-                      aria-selected="false">
+                      aria-selected="false"
+                    >
                       Awards
                     </a>
                   </li>
@@ -56,7 +59,8 @@ export default function About() {
                       data-bs-target="#experience"
                       role="tab"
                       aria-controls="experience"
-                      aria-selected="false">
+                      aria-selected="false"
+                    >
                       Experience
                     </a>
                   </li>
@@ -66,7 +70,8 @@ export default function About() {
                     class="tab-pane fade show active"
                     id="skills"
                     role="tabpanel"
-                    aria-labelledby="skills-tab">
+                    aria-labelledby="skills-tab"
+                  >
                     <div className="showcase">
                       <h5>User experience design - UI/UX</h5>
                       <span>Delight the user and make it work.</span>
@@ -84,14 +89,16 @@ export default function About() {
                     class="tab-pane fade"
                     id="awards"
                     role="tabpanel"
-                    aria-labelledby="awards-tab">
+                    aria-labelledby="awards-tab"
+                  >
                     Awards
                   </div>
                   <div
                     class="tab-pane fade"
                     id="experience"
                     role="tabpanel"
-                    aria-labelledby="experience-tab">
+                    aria-labelledby="experience-tab"
+                  >
                     Experience
                   </div>
                 </div>

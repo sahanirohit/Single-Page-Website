@@ -13,7 +13,7 @@
 
 /* Navbar Start */
 .main-menu {
-  background-color: transparent !important;
+  background-color: white !important;
   color: var(--primary-color) !important;
 }
 .main-menu li a {
@@ -91,10 +91,15 @@
 /* Home Page End */
 
 /* About Page Start */
+#about {
+  height: 60px;
+  width: 100%;
+}
+
 .about {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 .about_heading h1 {
