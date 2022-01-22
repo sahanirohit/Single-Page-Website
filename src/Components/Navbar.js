@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
-import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -15,8 +14,7 @@ export default function Navbar() {
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-          >
+            data-bs-target="#navbarNav">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
@@ -42,9 +40,9 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <NavLink to="#contact" className="nav-link">
+                <a href="#contact" className="nav-link">
                   Contact Us
-                </NavLink>
+                </a>
               </li>
             </ul>
           </div>

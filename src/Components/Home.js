@@ -9,7 +9,7 @@ export default function Home() {
         <div className="home__page">
           <div className="home__content">
             <div className="row">
-              <div className="col-6 content">
+              <div className="col-lg-6 col-10 mx-auto content">
                 <h1 className="home__heading">
                   Grow your Business with
                   <span className="brand-name"> RKH Digital</span>
@@ -21,20 +21,21 @@ export default function Home() {
                   Development. Responsive Website.
                 </p>
                 <div className="home__button">
-                  <NavLink to="/service" className="btn get-started">
+                  <a href="#service" className="btn home__btn get-started">
                     Get Started
-                  </NavLink>
-                  <NavLink to="/blogs" className="btn youtube">
+                  </a>
+                  <a href="#blogs" className="btn home__btn youtube">
                     Blogs <FaPlay />
-                  </NavLink>
+                  </a>
                 </div>
               </div>
-              <div className="col-6 home_img">
+              <div className="col-lg-6 col-10 mx-auto home_img">
                 <img
                   src="/images/bg.jpg"
                   alt="background"
                   height="550px"
                   width="600px"
+                  className="img-fluid"
                 />
               </div>
             </div>

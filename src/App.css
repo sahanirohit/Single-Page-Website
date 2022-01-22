@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Patua+One&family=Sarabun:wght@300&family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Patua+One&family=Sarabun:wght@300&family=Secular+One&family=Staatliches&display=swap");
 
 :root {
   --primary-color: #0f0c29;
@@ -34,7 +34,7 @@
 /* Home Page Start */
 .home__page {
   width: 100%;
-  height: 80vh;
+  height: auto;
   margin-top: 100px;
   margin-bottom: 50px !important;
 }
@@ -61,7 +61,7 @@
 .home__button {
   display: flex;
 }
-.btn {
+.home__btn {
   background-color: #003566 !important;
   color: #f8f9fa !important;
   font-weight: 700 !important;
@@ -99,8 +99,9 @@
 .about {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
   margin-bottom: 50px;
+  font-size: 70px;
+  font-weight: 700;
 }
 .about_heading h1 {
   font-weight: 700;
@@ -113,8 +114,12 @@ h1 .my_name {
 }
 .about_page {
   width: 100%;
-  height: 80vh !important;
-  margin-bottom: 50px !important;
+  height: auto !important;
+  /* margin-bottom: 100px !important; */
+}
+.about__section {
+  background-color: #f8f9fc;
+  padding: 50px 0;
 }
 .react-tabs a {
   font-size: 20px;
@@ -143,6 +148,9 @@ h1 .my_name {
   transition: width 0.5s;
   color: #ff0a54;
 }
+/* ul li a[role="tab"] {
+  color: #ff0a54 !important;
+} */
 .react-tabs li a:first-child {
   padding-left: 0px !important;
   margin-left: 0px !important;
@@ -157,3 +165,189 @@ h1 .my_name {
   margin: 30px 0;
 }
 /* About Page End */
+
+/* Service Page Start */
+
+.service__page {
+  padding: 50px 0;
+  height: auto;
+  width: 100%;
+}
+.service__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px !important;
+}
+.service__heading__content {
+  width: 60%;
+}
+.service__page h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+}
+.service__page p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 350;
+}
+#service {
+  height: 60px;
+  width: 100%;
+}
+.service__card {
+  width: 25rem;
+  height: 20rem;
+  border-radius: 10px !important;
+  display: flex !important;
+  justify-content: right;
+  padding: 20px 14px;
+  background-color: #f6f6f6 !important;
+  border: none !important;
+  transition: 0.5s;
+}
+.service__card:hover {
+  background-color: #ff0a54 !important;
+  color: white !important;
+}
+.service__card:hover .icons {
+  color: white !important;
+}
+.icons {
+  font-size: 60px;
+  color: #ff0a54;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+.service__card h5 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.service__card span {
+  font-size: 18px;
+}
+/* Service Page End */
+
+/* Blogs Page Start */
+#blogs {
+  height: 60px;
+  width: 100%;
+}
+.blogs__page {
+  padding: 50px 0;
+  height: auto;
+  width: 100%;
+}
+.blogs__section {
+  background-color: #f8f9fc;
+}
+.blogs__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px !important;
+}
+.blogs__heading__content {
+  width: 60%;
+  margin-bottom: 50px;
+}
+.blogs__page h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  font-weight: 700;
+}
+.blogs__page p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 350;
+}
+/* Blogs Page End */
+
+/* Contact Page Start */
+#contact {
+  height: 60px;
+  width: 100%;
+}
+.contact__page {
+  padding: 50px 0;
+  height: auto;
+  width: 100%;
+}
+
+form input {
+  padding: 10px 15px !important;
+  margin: 15px 0;
+}
+.contact__heading__content {
+  margin-bottom: 50px;
+}
+.contact__heading__content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.contact__heading__content span {
+  font-size: 18px;
+  font-weight: 400;
+}
+.contact__section {
+  display: flex;
+  flex-direction: column;
+}
+.contact__img {
+  margin-left: 80px;
+}
+.contact__btn {
+  padding: 7px 30px !important;
+  color: #ff0a54 !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  border: 1px solid #ff0a54 !important;
+}
+.contact__btn:hover {
+  background-color: #ff0a54 !important;
+  color: #f6f6f6 !important;
+}
+/* Contact Page End */
+
+/* Footer Start */
+.bg-footer {
+  background-color: black !important;
+}
+.footer__page {
+  padding: 50px 100px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: white;
+  text-align: center;
+}
+.footer {
+  display: flex !important;
+  justify-content: center;
+}
+.footer h1 {
+  font-weight: bold;
+  font-size: 60px;
+  font-family: "Staatliches", cursive;
+  margin-bottom: 15px;
+}
+.footer span {
+  font-family: "Kanit", sans-serif;
+}
+.footer__icons {
+  font-size: 35px !important;
+  margin: 10px 15px;
+  transition: 0.3s;
+}
+.footer__icons:hover {
+  color: #ff0a54;
+}

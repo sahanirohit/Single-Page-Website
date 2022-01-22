@@ -7,6 +7,7 @@ import About from "./Components/About";
 import Service from "./Components/Service";
 import Blogs from "./Components/Blogs";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 export default function App() {
   return (
@@ -17,13 +18,7 @@ export default function App() {
       <Service />
       <Blogs />
       <Contact />
-      {/* <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/service" element={<Service />} />
-        <Route exact path="/blogs" element={<Blogs />} />
-        <Route exact path="/contact" element={<Contact />} />
-      </Routes> */}
+      <Footer />
     </>
   );
 }
