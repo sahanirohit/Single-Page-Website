@@ -31,7 +31,7 @@ export default function Home() {
               </div>
               <div className="col-lg-6 col-md-6 col-12 mx-auto home_img">
                 <img
-                  src="/images/bg.jpg"
+                  src={require("../images/bg.jpg")}
                   alt="background"
                   height="550px"
                   width="600px"

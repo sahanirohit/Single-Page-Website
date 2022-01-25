@@ -54,7 +54,7 @@ export default function Contact() {
               </div>
               <div className="col-lg-6 col-10 mx-auto">
                 <img
-                  src="/images/me.png"
+                  src={require("../images/me.png")}
                   alt="me"
                   className="img-fluid contact__img"
                 />

@@ -10,7 +10,11 @@ export default function About() {
             <div className="row">
               <div className="col-lg-6 col-10 mx-auto">
                 <div className="about__img">
-                  <img src="/images/me.png" className="img-fluid" alt="me" />
+                  <img
+                    src={require("../images/me.png")}
+                    className="img-fluid"
+                    alt="me"
+                  />
                 </div>
               </div>
               <div className="col-lg-6 col-10 mx-auto">

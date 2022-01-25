@@ -1,36 +1,36 @@
 const Bdata = [
   {
-    imgsrc: "/images/ai.jpg",
+    imgsrc: require("../images/ai.jpg"),
     title: "Artificial Intelligence",
     content:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
   },
   {
-    imgsrc: "/images/app.jpg",
+    imgsrc: require("../images/app.jpg"),
     title: "Become App Developer",
     content:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
   },
   {
-    imgsrc: "/images/coding.jpg",
+    imgsrc: require("../images/bg.jpg"),
     title: "Become Successful",
     content:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
   },
   {
-    imgsrc: "/images/web.jpg",
+    imgsrc: require("../images/web.jpg"),
     title: "Become Web Developer",
     content:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
   },
   {
-    imgsrc: "/images/domore.jpg",
+    imgsrc: require("../images/domore.jpg"),
     title: "Neve Give Up",
     content:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
   },
   {
-    imgsrc: "/images/technology.jpg",
+    imgsrc: require("../images/technology.jpg"),
     title: "New Technology",
     content:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
