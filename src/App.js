@@ -15,10 +15,10 @@ export default function App() {
       <Navbar />
       <Home />
       <About />
-      <Service />
-      <Blogs />
-      <Contact />
-      <Footer />
+      {/* <Service /> */}
+      {/* <Blogs /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </>
   );
 }

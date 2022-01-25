@@ -20,6 +20,7 @@
   color: var(--primary-color) !important;
   font-size: 18px;
   font-weight: 700;
+  transition: 0.5s;
 }
 .navbar-brand {
   color: var(--primary-color);
@@ -29,26 +30,41 @@
 .navbar-toggler-icon {
   color: var(--primary-color) !important;
 }
+#navbarNav li a:hover {
+  color: #ff0a54 !important;
+}
+#navbarNav li a::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 2px;
+  background-color: #ced4da;
+  transition: width 0.5s;
+}
+#navbarNav li a:hover::after {
+  background-color: #ff0a54;
+  width: 100%;
+  transition: width 0.5s;
+  color: #ff0a54;
+}
+
 /* Navbar End */
 
 /* Home Page Start */
 .home__page {
-  width: 100%;
-  height: auto;
-  margin-top: 100px;
-  margin-bottom: 50px !important;
+  padding: 80px 0;
 }
 .row {
-  display: flex;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
-.col-6 {
-  width: 50%;
-}
+
 .home__heading {
   font-family: var(--heading-font);
   font-weight: 700;
   font-size: 55px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .brand-name {
   color: #2980b9 !important;
@@ -56,7 +72,7 @@
 .home__p {
   font-family: var(--paragraph-font);
   font-weight: 300;
-  margin-bottom: 30px;
+  margin: 25px 0;
 }
 .home__button {
   display: flex;
@@ -96,13 +112,6 @@
   width: 100%;
 }
 
-.about {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  font-size: 70px;
-  font-weight: 700;
-}
 .about_heading h1 {
   font-weight: 700;
   font-size: 50px !important;
@@ -113,9 +122,15 @@ h1 .my_name {
   color: #ff0a54;
 }
 .about_page {
-  width: 100%;
-  height: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   /* margin-bottom: 100px !important; */
+}
+.about__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .about__section {
   background-color: #f8f9fc;
@@ -354,8 +369,45 @@ form input {
 /* Footer End */
 
 /* Media Query for Responsive Website */
-@media (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .service__page h1 {
     font-size: 45px;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .home__content {
+    text-align: center;
+  }
+  .service__page h1 {
+    font-size: 45px;
+  }
+  .home__button {
+    justify-content: center !important;
+    margin-bottom: 30px;
+  }
+  .home__heading {
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .home__p {
+    font-size: 14px;
+  }
+
+  .home__btn {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    padding: 6px 20px !important;
+  }
+  .youtube {
+    font-size: 14px !important;
+  }
+  .about_heading h1 {
+    font-weight: 600;
+    font-size: 35px !important;
+    text-align: center;
+  }
+  .nav li a {
+    text-align: center;
   }
 }
