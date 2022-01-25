@@ -351,3 +351,11 @@ form input {
 .footer__icons:hover {
   color: #ff0a54;
 }
+/* Footer End */
+
+/* Media Query for Responsive Website */
+@media (max-width: 768px) {
+  .service__page h1 {
+    font-size: 45px;
+  }
+}

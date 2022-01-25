@@ -11,7 +11,7 @@ export default function About() {
             <div className="row">
               <div className="col-lg-6 col-10 mx-auto">
                 <div className="about__img">
-                  <img src="/images/me.png" alt="me" />
+                  <img src="/images/me.png" className="image-fluid" alt="me" />
                 </div>
               </div>
               <div className="col-lg-6 col-10 mx-auto">
@@ -32,7 +32,8 @@ export default function About() {
                         data-bs-target="#skills"
                         role="tab"
                         aria-controls="skills"
-                        aria-selected="false">
+                        aria-selected="false"
+                      >
                         Main skills
                       </a>
                     </li>
@@ -45,7 +46,8 @@ export default function About() {
                         data-bs-target="#awards"
                         role="tab"
                         aria-controls="awards"
-                        aria-selected="false">
+                        aria-selected="false"
+                      >
                         Awards
                       </a>
                     </li>
@@ -58,7 +60,8 @@ export default function About() {
                         data-bs-target="#experience"
                         role="tab"
                         aria-controls="experience"
-                        aria-selected="false">
+                        aria-selected="false"
+                      >
                         Experience
                       </a>
                     </li>
@@ -68,7 +71,8 @@ export default function About() {
                       className="tab-pane fade show active"
                       id="skills"
                       role="tabpanel"
-                      aria-labelledby="skills-tab">
+                      aria-labelledby="skills-tab"
+                    >
                       <div className="showcase">
                         <h5>User experience design - UI/UX</h5>
                         <span>Delight the user and make it work.</span>
@@ -86,7 +90,8 @@ export default function About() {
                       className="tab-pane fade"
                       id="awards"
                       role="tabpanel"
-                      aria-labelledby="awards-tab">
+                      aria-labelledby="awards-tab"
+                    >
                       <div className="showcase">
                         <h5>Awwwards.com - Winner</h5>
                         <span>2019 - 2020</span>
@@ -104,7 +109,8 @@ export default function About() {
                       className="tab-pane fade"
                       id="experience"
                       role="tabpanel"
-                      aria-labelledby="experience-tab">
+                      aria-labelledby="experience-tab"
+                    >
                       <div className="showcase">
                         <h5>Sr. Front-End Engineer - Google</h5>
                         <span>2018 - Current</span>
