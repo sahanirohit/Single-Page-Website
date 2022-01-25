@@ -154,7 +154,7 @@ h1 .my_name {
   display: block;
   width: 30%;
   height: 2px;
-  background-color: #ced4da;
+  background-color: #d0d2d5;
   transition: width 0.5s;
 }
 .react-tabs a:hover::after {
@@ -216,15 +216,20 @@ h1 .my_name {
   width: 100%;
 }
 .service__card {
-  width: 25rem;
+  width: 24rem;
   height: 20rem;
   border-radius: 10px !important;
   display: flex !important;
-  justify-content: right;
+  justify-content: center !important;
+  align-items: center !important;
   padding: 20px 14px;
   background-color: #f6f6f6 !important;
   border: none !important;
   transition: 0.5s;
+}
+.card__div {
+  display: flex;
+  justify-content: center;
 }
 .service__card:hover {
   background-color: #ff0a54 !important;

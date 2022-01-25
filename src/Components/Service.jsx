@@ -18,7 +18,7 @@ export default function Service() {
                 </p>
               </div>
             </div>
-            <div className="container-fluid px-4">
+            <div className="container-fluid">
               <div className="row gy-4">
                 {Cdata.map((val, ind) => {
                   return (
